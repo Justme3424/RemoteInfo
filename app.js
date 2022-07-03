@@ -17,6 +17,7 @@ AdminJS.registerAdapter(require('@adminjs/mongoose'))
 const app = express()
 const canModifyUsers = ({ currentAdmin }) => currentAdmin && currentAdmin.role === 'admin'
 
+//hola
 
 // Pass all configuration settings to AdminJS
 const adminJs = new AdminJS({
